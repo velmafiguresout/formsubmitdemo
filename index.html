@@ -146,25 +146,35 @@
   
   
               </div>
-              <div class="col-md-6">
                 
-                <form action="https://formsubmit.co/heyletstalkboutit@gmail.com" method="POST">
-                  <input placeholder="Please type your name" type="name" name="name" required>
-                  <input placeholder="Please type your email address" type="email" name="email" required>
-                  <textarea placeholder="Please write a message"></textarea>
-                  <button type="submit">Send</button>
-             </form>
-              </div>
+                <form class="row g-3" action="https://formsubmit.co/heyletstalkboutit@gmail.com" method="POST">
+                  <div class="col-md-6">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" name="name" id="firstName" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" name="Last name" id="lastName" required>
+                  </div>
+                  <div class="col-md-8">
+                    <label for="emailInfo" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" name="email" id="emailInfo" required>
+                  </div>
+                  <div class="col-md-12">
+                    <label for="comments" class="form-label">Comments, questions?</label>
+                    <textarea type="email" class="form-control" name="comments, questions?" rows="3" required></textarea>
+                  </div>
+                  <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </form>
+
             </div>
           </div>
         </div>
       </div>
-  
     </div>
     </section>
-
   </div>
-  
-
 </body>
 </html>
