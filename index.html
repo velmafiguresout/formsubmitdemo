@@ -147,7 +147,7 @@
   
               </div>
                 
-                <form class="row g-3" action="https://formsubmit.co/heyletstalkboutit@gmail.com" method="POST">
+                <form class="row g-3" action="contact.php" method="post">
                   <div class="col-md-6">
                     <label for="firstName" class="form-label">First Name</label>
                     <input type="text" class="form-control" name="name" id="firstName" required>
@@ -165,7 +165,10 @@
                     <textarea type="email" class="form-control" name="comments, questions?" rows="3" required></textarea>
                   </div>
                   <div class="col-md-12">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary send-button" value="Send">
+                      <i class="fa fa-paper-plane"></i>
+                      <span class="send-text">Submit</span>
+                    </button>
                   </div>
                 </form>
 
